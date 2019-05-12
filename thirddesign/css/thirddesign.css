@@ -1,0 +1,369 @@
+*
+{
+    border:0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body
+{
+    height: 100%;
+    border: 0;
+}
+.intro header
+{
+    border: 1px black dashed;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 1341px;
+    bottom: 308px;
+    width: 1347.4px;
+    height: 296px;
+    color: black;
+    background:linear-gradient(to bottom right, grey, white,grey);
+    opacity: 1;
+    text-align: center;
+padding-top: 20px;
+}
+.intro header h1
+{
+    font-size: 3em;
+    font-family: 'Catamaran', sans-serif;
+    width: 700px;
+    margin-left: 80px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro header span
+{
+    padding: 20px;
+    margin-left: -80px;
+}
+.intro header h2
+{
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    margin-top: -80px;
+    margin-left: 170px;
+    font-size: 1.7em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase
+    
+}
+.intro .summary 
+{
+     border-radius: 0px;
+    z-index: 0;
+    opacity: 0.9;
+    background-color: orangered;
+    position: absolute;
+    left: 0px;
+    top: 317px;
+    right: 890px;
+    bottom: 500px;
+    width: 860px;
+    height: 1083px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding-left: 95px;
+    text-align: left;   
+}
+.intro .summary p
+{
+    padding: 30px;
+    font-size: 1.3em;
+}
+.intro .preamble
+{
+    
+    z-index: 1;
+    color: white;
+    background-color: deepskyblue;
+    position: absolute;
+    left: 85px;
+    top: 470px;
+    right: 890px;
+    bottom: 825px;
+    width: 785px;
+    height: 490px;
+    padding: 30px;
+    border-radius: 30px;
+    box-sizing: border-box;
+ }
+.intro .preamble h3
+{
+    font-size: 2em;
+    font-family: 'Catamaran', sans-serif;
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: left;
+    padding: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro .preamble p
+{
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 10px;
+}
+.main .explanation
+{
+    z-index: 2;
+    opacity: 0.9;
+    color: white;
+    background-color: crimson;
+    position: absolute;
+    left: 90px;
+    top: 900px;
+    right: 895px;
+    bottom: 1280px;
+    width: 743px;
+    height: 595px;
+    padding: 0px 25px;
+    border-radius: 30px;
+}
+.main .explanation h3
+{
+  font-size: 2em;
+    font-family: 'Catamaran', sans-serif;
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 70px;
+    text-align: left;
+    padding: 0px;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+.main .explanation p
+{
+     font-size: 1.5em;
+    padding: 20px;
+    margin-left: -10px;
+}
+.main .participation
+{
+    opacity: 0.96;
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 1410px;
+    right: 895px;
+    bottom: 1810px;
+    width: 991px;
+    height: 530px;
+    padding: 30px;
+    color: white;
+    background-color: darkred;
+    border-radius: 30px;
+}
+.main .participation a
+{
+    color: white;
+    text-decoration: none;
+}
+.main .participation h3
+{
+   font-size: 2em;
+    width: 700px;
+    margin-left: -10px;
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+.main .participation p
+{
+  font-size: 1.5em;
+    padding-top: 100px;
+    margin-top: -50px;
+    margin-left: 90px; 
+    width: 800px;
+}
+.main .benefits
+{
+    opacity: 1;
+    z-index: 4;
+    position: absolute;
+    left: 0;
+    top: 2000px;
+    right: 890px;
+    bottom: 2065px;
+    width: 891px;
+    height: 200px;
+    padding: 30px;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 30px;
+}
+.main .benefits h3
+{
+   font-size: 2em;
+    width: 700px;
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+.main .benefits p
+{
+  font-size: 1.5em;
+    padding-top: 70px;
+    margin-top: -50px;
+    margin-left: 90px; 
+    width: 800px;
+}
+.main .requirements
+{
+    z-index: 3;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 2240px;
+    border-radius: 30px;
+    right: 880px;
+    bottom: 2930px;
+    width: 1300px;
+    height: 900px;
+    padding: 30px;
+    background-color: violet;
+    color: black;
+}
+.main .requirements a{
+    color: black;
+    text-decoration: none;
+}
+.main .requirements h3
+{
+    font-size: 2em;
+    width: 700px;
+    margin-left: -10px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+.main .requirements p
+{
+    width: 1200px;
+    font-size: 1.5em;
+    padding-top: 90px;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+footer
+{
+    position: absolute;
+    left: 0;
+    top: 3150px;
+    z-index: 3;
+    opacity: 0.8;
+    right: 1350px;
+    bottom: 3425px;
+    width: 1350px;
+    height: 175px;
+    text-align: center;
+    background-color: #134347;
+    padding-top: 50px;
+}
+footer .s
+{
+    font-size: 8em;
+    margin-left: -750px;
+   
+}
+footer p
+{
+    width: 600px;
+    padding: 30px;
+    font-size: 2em;
+    margin-left: 450px;
+    margin-top: -130px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper nav 
+{
+    z-index: 0;
+    position: absolute;
+    left: 950px;
+    top: 317px;
+    right: 1340px;
+    bottom: 1280px;
+    width: 450px;
+    height: 2803px;
+  padding-top: 30px;
+    background-color: #c7d8cd;
+}
+.wrapper nav .q
+{
+    list-style-type: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1.3em;
+    margin-left: 25px;
+    position: relative;
+    z-index: 2;
+    color: black;
+}
+.wrapper nav .q li
+{
+    padding-top: 40px;
+    margin-top: 60px;
+    color: darkgreen;
+    
+}
+.wrapper nav .q li a
+{
+    color: rgba(51,51,51,0.7);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

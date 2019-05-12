@@ -1,0 +1,630 @@
+@import "mixins";
+$rockRed:(
+    rr1:#E71C23,
+    rr2:#D63031,
+    rr3:#AE1438,
+    rr4:#E83350,
+    rr5:#E8290B,
+    rr6:#E44236,
+    rr7:#BA2F16,
+);
+$beautyBlue:(
+    bb1:#3498DB,
+    bb2:#2475B0,
+    bb3:#4834DF,
+    bb4:#0ABDE3,
+    bb5:#4BCFFA,
+    bb6:#0A3D62,
+    bb7:#30336B,
+);
+$golfGreen:(
+    gg1:#2ecc72,
+    gg2:#45CE30,
+    gg3:#26ae60,
+    gg4:#019031,
+    gg5:#218F76,
+    gg6:#A3CB37,
+    gg7:#6AB04A,
+);
+$freshYellow:(
+    fy1:#EEC213,
+    fy2:#F4C724,
+    fy3:#FFF222,
+    fy4:#E1DA00,
+    fy5:#E5B143,
+    fy6:#FBD28B,
+    fy7:#FAD02E,
+);
+$oldGrey:(
+    og1:#7B8788,
+    og2:#2C3335,
+    og3:#535C68,
+    og4:#616C6F,
+    og5:#4C4B4B,
+    og6:#758AA2,
+    og7:#586776,
+);
+@function rr($a){
+    @return map-get($rockRed,$a);
+}
+@function bb($a){
+    @return map-get($beautyBlue,$a);
+}
+@function gg($a){
+    @return map-get($golfGreen,$a);
+}
+@function fy($a){
+    @return map-get($freshYellow,$a);
+}
+@function og($a){
+    @return map-get($oldGrey,$a);
+}
+@media (min-width:1200px){
+    body{
+        .r{
+            padding-top: 20px;
+            text-align: center;
+            background-color: #f2f2f2;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bolder;
+            .bt{
+                padding: 15px 25px;
+                text-align: center;
+                margin-top: -20px;
+                border-radius: 0;
+                font-size: 1em;
+                font-family: 'Roboto', sans-serif;
+            }
+            .f{
+                color: bb(bb1);
+                margin-right: 10px;
+            }
+            .fa-plus{
+                margin-left: 10px;
+            }
+        }
+        .carousel-item img{
+            height: 490px;
+        }
+        .s{
+            @include jb();
+        }
+        .ph{
+            margin-top: 120px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 20px;
+        }
+        .acc{
+            margin-top: 50px;
+        }
+        .ic{
+            font-size: 1.7em;
+            color: bb(bb2);
+        }
+        .bld{
+            margin-top: 10px;
+            font-weight: bolder;
+            text-align: center;
+margin-left: -80px;
+        }
+        .twos{
+            border: 1.5px solid #3f85ce;
+            width:10%;
+            margin: 5px auto;
+
+        }
+        .two{
+            border: 1.5px solid #3f85ce;
+            width:8%;
+            margin-left: 50%;
+
+        }
+        .tow{
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        .lp{
+            font-size: 1em;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+             margin-bottom: 80px;
+        } 
+        .st{
+margin-top: -15px;        
+        }
+        .to{
+            margin-top: 70px;
+        }
+        .fa-stack{
+            font-size: 3em;
+            margin-left: 45px;
+            
+        }
+        .fa-stack-1x{
+     color: white;
+            background-color: #3498DB;
+        }
+        .cat{
+            background-color: black;
+            padding: 100px;
+            color: white;
+           @include jb(); 
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    body{
+        .r{
+            padding-top: 20px;
+            text-align: center;
+            background-color: #f2f2f2;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bolder;
+            .bt{
+                padding: 15px 25px;
+                text-align: center;
+                margin-top: -20px;
+                border-radius: 0;
+                font-size: 1em;
+                font-family: 'Roboto', sans-serif;
+            }
+            .f{
+                color: bb(bb1);
+                margin-right: 10px;
+            }
+            .fa-plus{
+                margin-left: 10px;
+            }
+        }
+         .carousel-item img{
+            height: 490px;
+        }
+         .s{
+            @include jb();
+        }
+        .ph{
+            margin-top: 120px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 10px;
+        }
+        .acc{
+            margin-top: 50px;
+        }
+        .ic{
+            font-size: 1.3em;
+            color: bb(bb2);
+        }
+        .bld{
+            margin-top: 10px;
+            font-weight: bolder;
+            text-align: center;
+margin-left: -50px;
+        }
+         .twos{
+            border: 1.5px solid #3f85ce;
+            width:10%;
+            margin: 5px auto;
+
+        }
+        .two{
+            border: 1.5px solid #3f85ce;
+            width:8%;
+            margin-left: 50%;
+
+        }
+        .tow{
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        .lp{
+            font-size: 1em;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+             margin-bottom: 80px;
+        } 
+        .st{
+margin-top: -15px;        
+        }
+        .to{
+            margin-top: 70px;
+        }
+        .fa-stack{
+            font-size: 2.5em;
+            margin-left: 42px;
+            
+        }
+        .fa-stack-1x{
+     color: white;
+            background-color: #3498DB;
+        }
+        .cat{
+            background-color: black;
+            padding: 100px;
+            color: white;
+           @include jb(); 
+        }
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    body{
+        .r{
+            padding-top: 20px;
+            background-color: #f2f2f2;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bolder;
+            .qw{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .bt{
+                padding: 15px 25px;
+                text-align: center;
+                margin-top: -20px;
+                border-radius: 0;
+                font-size: 1em;
+                font-family: 'Roboto', sans-serif;
+            }
+            .f{
+                color: bb(bb1);
+                margin-right: 0px;
+            }
+            .fa-plus{
+                margin-left: 0px;
+            }
+        }
+         .carousel-item img{
+            height: 490px;
+        }
+         .s{
+            @include jb();
+        }
+        .ph{
+            margin-top: 110px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 0px;
+            width: 200px !important;
+            height: 200px !important;
+        }
+        .acc{
+            margin-top: 50px;
+        }
+        .ic{
+            font-size: 1.3em;
+            color: bb(bb2);
+        }
+        .bld{
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size:1em;
+            text-align: center;
+margin-left: -30px;
+        }
+        .sml{
+            margin-top: 40px !important;
+        }
+        .ide{
+            margin-top: 130px !important;
+            margin-left: -30px !important;
+            height: 210px !important;
+           width: 210px !important;
+        }
+        .twos{
+            border: 1.5px solid #3f85ce;
+            width:10%;
+            margin: 5px auto;
+
+        }
+        .two{
+            border: 1.5px solid #3f85ce;
+            width:8%;
+            margin-left: 50%;
+
+        }
+        .tow{
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        .lp{
+            font-size: 1em;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+             margin-bottom: 80px;
+        } 
+        .st{
+margin-top: -15px;        
+        }
+        .to{
+            margin-top: 70px;
+        }
+        .fa-stack{
+            font-size: 1.5em;
+            margin-left: 30px;
+            
+        }
+        .fa-stack-1x{
+     color: white;
+            background-color: #3498DB;
+        }
+        .cat{
+            background-color: black;
+            padding: 100px;
+            color: white;
+           @include jb(); 
+        }
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    body{
+        .r{
+            padding-top: 20px;
+            background-color: #f2f2f2;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bolder;
+            .e{
+               
+                opacity: 0;
+                
+            }
+            .qw{
+                 text-align: center;
+                margin-left: 0px;
+                padding: 0px;
+                .f{
+                    font-size: 2em;
+                }
+            }
+           .bt{
+                padding: 15px 25px;
+                text-align: center;
+                margin-top: -20px;
+                border-radius: 0;
+                font-size: 1em;
+                font-family: 'Roboto', sans-serif;
+            }
+            .f{
+                color: bb(bb1);
+                margin-right: 0px;
+            }
+            .fa-plus{
+                margin-left: 0px;
+            }
+        }
+         .carousel-item img{
+            height: 490px;
+        }
+        .s{
+            @include jb();
+        }
+        .ph{
+            margin-top: 77px;
+            position: absolute;
+            z-index: 2;
+            margin-left: 50px;
+            width: 400px !important;
+            height: 300px !important;
+        }
+        .acc{
+            margin-top: 50px;
+        }
+        .ic{
+            font-size: 1.3em;
+            color: bb(bb2);
+        }
+        .bld{
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size:1em;
+            text-align: center;
+margin-left: -80px;
+        }
+        .amp{
+            margin-left: 40px !important;
+        }
+        .sml{
+            margin-top: 40px !important;
+            margin-left: 40px !important;
+        }
+        .un{
+            margin-left: 40px !important;
+        }
+        .ide{
+            margin-top: 100px !important;
+            margin-left: 0px !important;
+            height: 310px !important;
+           width: 400px !important;
+        }
+        .twos{
+            border: 1.5px solid #3f85ce;
+            width:10%;
+            margin: 5px auto;
+
+        }
+        .two{
+            border: 1.5px solid #3f85ce;
+            width:8%;
+            margin-left: 50%;
+
+        }
+        .tow{
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        .lp{
+            font-size: 1em;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+             margin-bottom: 80px;
+        } 
+        .st{
+margin-top: -15px;        
+        }
+        .to{
+            margin-top: 70px;
+        }
+        .fa-stack{
+            font-size: 3.5em;
+            margin-left: 0px;
+            margin-bottom: 70px;
+            margin-top: 70px;
+            
+        }
+        .fa-stack-1x{
+     color: white;
+            background-color: #3498DB;
+        }
+        .cat{
+            text-align: center;
+            background-color: black;
+            padding: 100px;
+            color: white;
+           @include jb(); 
+        } 
+    }
+}
+@media (max-width:575px){
+    body{
+ .r{
+            padding: 20px;
+            background-color: #f2f2f2;
+            font-family: 'Catamaran', sans-serif;
+            font-weight: bolder;
+     text-align: center;
+            .bt{
+                padding: 10px 20px;
+                text-align: center;
+                margin-top: 15px;
+                border-radius: 0;
+                margin-left: -50px;
+                font-size: 0.85em;
+                font-family: 'Roboto', sans-serif;
+            }
+     .qw{
+         margin-top: 15px;
+         font-size: 1.1em;
+     }
+            .f{
+                color: bb(bb1);
+                margin-right: 10px;
+            }
+            .fa-plus{
+                margin-left: 10px;
+            }
+        }
+         .carousel-item img{
+            height: 490px;
+        }
+        .s{
+            @include jb();
+        }
+        .ph{
+            margin-top: 77px;
+            margin-left: 50px !important;
+            position: absolute;
+            z-index: 2;
+            margin-left: 10px;
+            width: 300px !important;
+            height: 300px !important;
+        }
+        .acc{
+            margin-top: 50px;
+        }
+        .ic{
+            font-size: 1.3em;
+            color: bb(bb2);
+        }
+        .bld{
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size:1em;
+            text-align: center;
+margin-left: -70px;
+        }
+         .amp{
+            margin-left: 10px !important;
+        }
+        .sml{
+            margin-top: 20px !important;
+            margin-left: 15px !important;
+            font-size: 1em !important;
+        }
+        .ide{
+            margin-top: 100px !important;
+            margin-left: 10px !important;
+            height: 310px !important;
+           width: 300px !important;
+        }
+        .un{
+            margin-left: 15px !important;
+        }
+        .twos{
+            border: 1.5px solid #3f85ce;
+            width:50%;
+            margin: 5px auto;
+
+        }
+        .two{
+            border: 1.5px solid #3f85ce;
+            width:25%;
+            margin-left: 50%;
+
+        }
+        .tow{
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        .lp{
+            font-size: 1em;
+            text-align: center;
+            padding: 0px;
+            box-sizing: border-box;
+             margin-bottom: 80px;
+        } 
+        .st{
+margin-top: -15px;        
+        }
+        .to{
+            margin-top: 70px;
+        }
+        .fa-stack{
+            font-size: 3.5em;
+            margin-left: 0px;
+            margin-bottom: 70px;
+            margin-top: 70px;
+            
+        }
+        .fa-stack-1x{
+     color: white;
+            background-color: #3498DB;
+        }
+        .cat{
+            text-align: center;
+            background-color: black;
+            padding: 100px;
+            color: white;
+           @include jb(); 
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

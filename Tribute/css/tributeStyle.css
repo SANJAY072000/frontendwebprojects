@@ -1,0 +1,66 @@
+body
+{
+    background-color: lightgray;
+}
+.navbar-brand, .nav-link{
+    color: white !important;
+   font-size: 1.3em;
+}
+.nav-link{
+   margin-right: 30px;
+}
+.row
+{
+    margin-top: -16px;
+}
+.col-4, .col-md-3 
+{
+    border-right: 1px grey solid;
+    background: radial-gradient(#00c3ff,#ffff1c)
+        no-repeat center center fixed;
+    background-size: cover;
+ }
+.col-4 ul, .col-md-3 ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+    
+}
+.col-4 li, .col-md-3 li
+{
+    text-align: left;
+    margin-left: -15px;
+    font-weight: bolder;
+    font-family: 'Catamaran', sans-serif;
+    padding: 20px;
+    font-size: 1.5em;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.col-8 .input-group, .col-md-9 .input-group
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    
+ }
+img
+{
+   margin-top: 130px;
+    margin-left: 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,414 @@
+@media (min-width: 1200px) {
+  body .r {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder; }
+    body .r .bt {
+      padding: 15px 25px;
+      text-align: center;
+      margin-top: -20px;
+      border-radius: 0;
+      font-size: 1em;
+      font-family: 'Roboto', sans-serif; }
+    body .r .f {
+      color: #3498DB;
+      margin-right: 10px; }
+    body .r .fa-plus {
+      margin-left: 10px; }
+  body .carousel-item img {
+    height: 490px; }
+  body .s {
+    margin-bottom: 170px; }
+  body .ph {
+    margin-top: 120px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 20px; }
+  body .acc {
+    margin-top: 50px; }
+  body .ic {
+    font-size: 1.7em;
+    color: #2475B0; }
+  body .bld {
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: -80px; }
+  body .twos {
+    border: 1.5px solid #3f85ce;
+    width: 10%;
+    margin: 5px auto; }
+  body .two {
+    border: 1.5px solid #3f85ce;
+    width: 8%;
+    margin-left: 50%; }
+  body .tow {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+  body .lp {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 80px; }
+  body .st {
+    margin-top: -15px; }
+  body .to {
+    margin-top: 70px; }
+  body .fa-stack {
+    font-size: 3em;
+    margin-left: 45px; }
+  body .fa-stack-1x {
+    color: white;
+    background-color: #3498DB; }
+  body .cat {
+    background-color: black;
+    padding: 100px;
+    color: white;
+    margin-bottom: 170px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  body .r {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder; }
+    body .r .bt {
+      padding: 15px 25px;
+      text-align: center;
+      margin-top: -20px;
+      border-radius: 0;
+      font-size: 1em;
+      font-family: 'Roboto', sans-serif; }
+    body .r .f {
+      color: #3498DB;
+      margin-right: 10px; }
+    body .r .fa-plus {
+      margin-left: 10px; }
+  body .carousel-item img {
+    height: 490px; }
+  body .s {
+    margin-bottom: 170px; }
+  body .ph {
+    margin-top: 120px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10px; }
+  body .acc {
+    margin-top: 50px; }
+  body .ic {
+    font-size: 1.3em;
+    color: #2475B0; }
+  body .bld {
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: -50px; }
+  body .twos {
+    border: 1.5px solid #3f85ce;
+    width: 10%;
+    margin: 5px auto; }
+  body .two {
+    border: 1.5px solid #3f85ce;
+    width: 8%;
+    margin-left: 50%; }
+  body .tow {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+  body .lp {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 80px; }
+  body .st {
+    margin-top: -15px; }
+  body .to {
+    margin-top: 70px; }
+  body .fa-stack {
+    font-size: 2.5em;
+    margin-left: 42px; }
+  body .fa-stack-1x {
+    color: white;
+    background-color: #3498DB; }
+  body .cat {
+    background-color: black;
+    padding: 100px;
+    color: white;
+    margin-bottom: 170px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  body .r {
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder; }
+    body .r .qw {
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+    body .r .bt {
+      padding: 15px 25px;
+      text-align: center;
+      margin-top: -20px;
+      border-radius: 0;
+      font-size: 1em;
+      font-family: 'Roboto', sans-serif; }
+    body .r .f {
+      color: #3498DB;
+      margin-right: 0px; }
+    body .r .fa-plus {
+      margin-left: 0px; }
+  body .carousel-item img {
+    height: 490px; }
+  body .s {
+    margin-bottom: 170px; }
+  body .ph {
+    margin-top: 110px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 0px;
+    width: 200px !important;
+    height: 200px !important; }
+  body .acc {
+    margin-top: 50px; }
+  body .ic {
+    font-size: 1.3em;
+    color: #2475B0; }
+  body .bld {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    margin-left: -30px; }
+  body .sml {
+    margin-top: 40px !important; }
+  body .ide {
+    margin-top: 130px !important;
+    margin-left: -30px !important;
+    height: 210px !important;
+    width: 210px !important; }
+  body .twos {
+    border: 1.5px solid #3f85ce;
+    width: 10%;
+    margin: 5px auto; }
+  body .two {
+    border: 1.5px solid #3f85ce;
+    width: 8%;
+    margin-left: 50%; }
+  body .tow {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+  body .lp {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 80px; }
+  body .st {
+    margin-top: -15px; }
+  body .to {
+    margin-top: 70px; }
+  body .fa-stack {
+    font-size: 1.5em;
+    margin-left: 30px; }
+  body .fa-stack-1x {
+    color: white;
+    background-color: #3498DB; }
+  body .cat {
+    background-color: black;
+    padding: 100px;
+    color: white;
+    margin-bottom: 170px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  body .r {
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder; }
+    body .r .e {
+      opacity: 0; }
+    body .r .qw {
+      text-align: center;
+      margin-left: 0px;
+      padding: 0px; }
+      body .r .qw .f {
+        font-size: 2em; }
+    body .r .bt {
+      padding: 15px 25px;
+      text-align: center;
+      margin-top: -20px;
+      border-radius: 0;
+      font-size: 1em;
+      font-family: 'Roboto', sans-serif; }
+    body .r .f {
+      color: #3498DB;
+      margin-right: 0px; }
+    body .r .fa-plus {
+      margin-left: 0px; }
+  body .carousel-item img {
+    height: 490px; }
+  body .s {
+    margin-bottom: 170px; }
+  body .ph {
+    margin-top: 77px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50px;
+    width: 400px !important;
+    height: 300px !important; }
+  body .acc {
+    margin-top: 50px; }
+  body .ic {
+    font-size: 1.3em;
+    color: #2475B0; }
+  body .bld {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    margin-left: -80px; }
+  body .amp {
+    margin-left: 40px !important; }
+  body .sml {
+    margin-top: 40px !important;
+    margin-left: 40px !important; }
+  body .un {
+    margin-left: 40px !important; }
+  body .ide {
+    margin-top: 100px !important;
+    margin-left: 0px !important;
+    height: 310px !important;
+    width: 400px !important; }
+  body .twos {
+    border: 1.5px solid #3f85ce;
+    width: 10%;
+    margin: 5px auto; }
+  body .two {
+    border: 1.5px solid #3f85ce;
+    width: 8%;
+    margin-left: 50%; }
+  body .tow {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+  body .lp {
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 80px; }
+  body .st {
+    margin-top: -15px; }
+  body .to {
+    margin-top: 70px; }
+  body .fa-stack {
+    font-size: 3.5em;
+    margin-left: 0px;
+    margin-bottom: 70px;
+    margin-top: 70px; }
+  body .fa-stack-1x {
+    color: white;
+    background-color: #3498DB; }
+  body .cat {
+    text-align: center;
+    background-color: black;
+    padding: 100px;
+    color: white;
+    margin-bottom: 170px; } }
+@media (max-width: 575px) {
+  body .r {
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+    text-align: center; }
+    body .r .bt {
+      padding: 10px 20px;
+      text-align: center;
+      margin-top: 15px;
+      border-radius: 0;
+      margin-left: -50px;
+      font-size: 0.85em;
+      font-family: 'Roboto', sans-serif; }
+    body .r .qw {
+      margin-top: 15px;
+      font-size: 1.1em; }
+    body .r .f {
+      color: #3498DB;
+      margin-right: 10px; }
+    body .r .fa-plus {
+      margin-left: 10px; }
+  body .carousel-item img {
+    height: 490px; }
+  body .s {
+    margin-bottom: 170px; }
+  body .ph {
+    margin-top: 77px;
+    margin-left: 50px !important;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10px;
+    width: 300px !important;
+    height: 300px !important; }
+  body .acc {
+    margin-top: 50px; }
+  body .ic {
+    font-size: 1.3em;
+    color: #2475B0; }
+  body .bld {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    margin-left: -70px; }
+  body .amp {
+    margin-left: 10px !important; }
+  body .sml {
+    margin-top: 20px !important;
+    margin-left: 15px !important;
+    font-size: 1em !important; }
+  body .ide {
+    margin-top: 100px !important;
+    margin-left: 10px !important;
+    height: 310px !important;
+    width: 300px !important; }
+  body .un {
+    margin-left: 15px !important; }
+  body .twos {
+    border: 1.5px solid #3f85ce;
+    width: 50%;
+    margin: 5px auto; }
+  body .two {
+    border: 1.5px solid #3f85ce;
+    width: 25%;
+    margin-left: 50%; }
+  body .tow {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+  body .lp {
+    font-size: 1em;
+    text-align: center;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 80px; }
+  body .st {
+    margin-top: -15px; }
+  body .to {
+    margin-top: 70px; }
+  body .fa-stack {
+    font-size: 3.5em;
+    margin-left: 0px;
+    margin-bottom: 70px;
+    margin-top: 70px; }
+  body .fa-stack-1x {
+    color: white;
+    background-color: #3498DB; }
+  body .cat {
+    text-align: center;
+    background-color: black;
+    padding: 100px;
+    color: white;
+    margin-bottom: 170px; } }
+
+/*# sourceMappingURL=realEstateStyle.css.map */

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Catamaran|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="scss/moStyle.css">
+	<title>Mobile Oriented</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mobile</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Our testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+        
+      </ul>
+      
+     
+    </div>
+  </div>
+</nav>
+ <header>
+     <div class="jumbotron">
+  <h1>Opens only in Mobiles</h1>
+  <p>Here comes the first mobile oriented webpage</p>
+  <p><a class="btn btn-danger" href="#" role="button">Go Now !</a></p>
+</div>
+ </header> 
+  <section>
+      <div class="row">
+          <div class="col-xs-12">
+              <img src="https://images.pexels.com/photos/160933/girl-rabbit-friendship-love-160933.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <h3>This is an image</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quidem quae corporis voluptates, illo nesciunt error architecto magni dolor porro!</p>
+          </div>
+          <div class="col-xs-12">
+              <img src="https://images.pexels.com/photos/377058/pexels-photo-377058.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <h3>This is an image</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ducimus recusandae autem veritatis ut hic doloremque sed maiores consequuntur sequi!</p>
+          </div>
+      </div>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-xs-12">
+                  <h1>There goes our Gallery</h1>
+                  <h5>From Flickr</h5>
+              </div>
+              <div class="col-xs-6"><img src="https://images.pexels.com/photos/1382732/pexels-photo-1382732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="col-xs-6"><img src="https://images.pexels.com/photos/1382728/pexels-photo-1382728.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="col-xs-6"><img src="https://images.pexels.com/photos/1741235/pexels-photo-1741235.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+              <div class="col-xs-6"><img src="https://images.pexels.com/photos/1263986/pexels-photo-1263986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+          </div>
+      </div>
+  </section>  
+ <footer>
+     <div class="row">
+         <div class="col-xs-4">
+             <ul>
+                 <li>Home</li>
+                 <li>About Us</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+             </ul>
+         </div>
+         <div class="col-xs-4">
+             <ul>
+                 <li>Home</li>
+                 <li>About Us</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+             </ul>
+         </div>
+         <div class="col-xs-4">
+             <ul>
+                 <li>Home</li>
+                 <li>About Us</li>
+                 <li>Services</li>
+                 <li>Contact Us</li>
+             </ul>
+         </div>
+     </div>
+ </footer>   
+    
+    
+    
+    
+    
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/moScript.js">
+	</script>
+
+</body>
+
+</html>

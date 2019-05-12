@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="scss/normalize.css">
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran|Felipa|Fira+Sans+Condensed|Nanum+Gothic|Oswald|Roboto|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="scss/realEstateStyle.css"> 
+    <title>Bisht Property</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  </head>
+  <body>
+  <div class="container-fluid">
+      <div class="row r">
+          <div class="col-12 qw col-sm"><i class="f fa fa-phone" aria-hidden="true"></i> <span class="e"> Call us +1234567890</span></div>
+          <div class="col-12 qw col-sm"><i class="f fa fa-envelope" aria-hidden="true"></i> <span class="e"> info@bishtproperty.com </span></div>
+          <div class="col-12 qw col-sm"><i class="f fa fa-clock-o" aria-hidden="true"></i> <span class="e"> Open only on 12pm - 5pm </span></div>
+          <div class="col-12 qw col-sm offset-1"><button type="button" class="btn btn-primary btn-lg bt">
+  Schedule A Visit <i class="fa fa-plus" aria-hidden="true"></i>
+</button></div>
+      </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light mt-3">
+  <a class="navbar-brand" href="#">
+  <img src="data:image/png;base64,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" width="30" height="30" class="d-inline-block align-top" alt="Unavailable"><span style="font-family: 'Roboto', sans-serif;font-size: 1em;margin-left: 5px;"> Bisht</span>  <span style="font-weight: bolder;font-family: 'Nanum Gothic', sans-serif;font-size: 1.1em;margin-left: 2px;color: black;">Property</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto" style="font-size: 1em;font-weight: bolder;margin-top: 20px;margin-bottom: 30px;">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-building" aria-hidden="true"></i> About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-camera" aria-hidden="true"></i> Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-plane" aria-hidden="true"></i> Take A Tour</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+   <header>
+     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slide1.jpg" class="d-block w-100" alt="Unavailable">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider2.jpg" class="d-block w-100" alt="Unavailable">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider3.jpg" class="d-block w-100" alt="Unavailable">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>  
+ </header>
+   <section>
+       <div class="container s">
+           <div class="row">
+               <div class="col-md-6 col-12">
+   <img src="images/img1.jpg" alt="Unavailable" class="ph">
+   <div style="border: 2px solid #3f85ce;height: 370px;
+       width: 380px;margin-top: 150px;margin-left: -15px;" class="ide"></div>
+</div>
+   <div class="col-md-6 col-12" style="text-align: left;">
+<h1 class="display-5 amp" style="margin-top: 120px;font-family: 'Nanum Gothic', sans-serif;margin-left: -50px;">Property <span style="font-weight: bolder;">Description</span></h1>
+  <div style="border: 1px solid #3f85ce;width: 20%;margin-top: 5px; margin-left: -50px;" class="un"></div>
+  <p class="lead text-muted sml" style="margin-top: 70px;margin-left: -50px;font-family: 'Catamaran', sans-serif;font-size: 1.1em;text-align: left;padding-right: 20px;">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit aet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti.</p>
+  <div class="container ">
+      <div class="acc row shadow-lg p-4 bg-white rounded">
+          <div class="col"><i class="fa ic fa-bed" aria-hidden="true"></i>
+          <br>
+              <h5 class="bld">2<br>
+                      Bed</h5>
+                 </div>
+          <div class="col"><i class="fa ic fa-bath" aria-hidden="true"></i> <br>
+              <h5 class="bld">3<br>
+                      Bath</h5></div>
+          <div class="col"><i class="fa ic fa-square-o" aria-hidden="true"></i> <br>
+              <h5 class="bld">3500<br>
+                      SQ.FT</h5></div>
+          <div class="col"><i class="fa ic fa-money" aria-hidden="true"></i> <br>
+              <h5 class="bld">$2,500<br>
+                      Deposit</h5></div>
+      </div>
+  </div>
+   </div>
+           </div>
+       </div>
+  <div class="container-fluid cat">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center">
+                  <h1 class="">Property <strong>Highlights</strong></h1>
+                  <div class="tow">
+                  <div class="twos"></div>
+                  <div class="two"></div>
+                  </div>
+              </div>
+              <div class="w-100"></div>
+              <div class="col-12">
+                  <p class="text-center lp">This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor Aenean sollicitudin, lorem quis
+bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.t akshay handge.</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4">
+          <div class="row">
+  <div class="col-md-6">
+      <span class="fa-stack fa-lg">
+       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-circle-o-notch fa-stack-1x" aria-hidden="true"></i>
+      </span>
+  </div>
+                      <div class="col-md-6">
+                    <h4>Best Quality</h4><br>
+                     <p class="st">Real Estate agents are Property cting of land the buildings on it, ong with its seds naturals resources such.</p>
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <span class="fa-stack fa-lg">
+       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-hand-o-right fa-stack-1x" aria-hidden="true"></i>
+      </span>
+                      </div>
+                      <div class="col-md-6"> <h4>Insurance</h4><br>
+                     <p class="st">Real Estate agents are Property cting of land the buildings on it, ong with its seds naturals resources such.</p></div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col-md-6">
+                      <span class="fa-stack fa-lg">
+       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-cog fa-stack-1x" aria-hidden="true"></i>
+      </span></div>
+                      <div class="col-md-6"> <h4>Interior</h4><br>
+                     <p class="st">Real Estate agents are Property cting of land the buildings on it, ong with its seds naturals resources such.</p></div>
+                  </div>
+              </div>
+              <div class="col-md-4 to">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <span class="fa-stack fa-lg">
+       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-cube fa-stack-1x" aria-hidden="true"></i>
+      </span>
+                      </div>
+                      <div class="col-md-6"> <h4>Square Feet</h4><br>
+                     <p class="st">Real Estate agents are Property cting of land the buildings on it, ong with its seds naturals resources such.</p></div>
+                  </div>
+              </div>
+              <div class="col-md-4 to">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <span class="fa-stack fa-lg">
+       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-arrows-alt fa-stack-1x" aria-hidden="true"></i>
+      </span>
+                      </div>
+                      <div class="col-md-6"> <h4>Security</h4><br>
+                     <p class="st">Real Estate agents are Property cting of land the buildings on it, ong with its seds naturals resources such.</p></div>
+                  </div>
+              </div>
+              <div class="col-md-4 to">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <span class="fa-stack fa-lg">
+       <i class="fa fa-square-o fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-eye fa-stack-1x" aria-hidden="true"></i>
+      </span>
+                      </div>
+                      <div class="col-md-6"> <h4>Furniture</h4><br>
+                     <p class="st">Real Estate agents are Property cting of land the buildings on it, ong with its seds naturals resources such.</p></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>    
+   </section>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/realEstateScript.js"></script>
+  </body>
+</html>

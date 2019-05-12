@@ -1,0 +1,104 @@
+@import "mixins";
+@import "cp";
+$colors:(
+      a:#EA7773,
+      b:#EAF0F1,
+    c:#1287A5,
+    d:#EEC213,
+    e:#E8290B
+);
+@function color($q)
+{
+    @return map-get($colors,$q);
+}
+$sizes:(
+xsmall:1em,
+sma:1.4em,
+med:1.8em,
+lar:2.3em,
+xlarge:3em);
+@function size($q)
+{
+    @return map-get($sizes,$q);
+}
+body
+{
+     @include jb();
+    
+   .navbar
+    {
+        font-family: 'Bitter', serif;
+        padding: 10px 20px;
+        font-weight: bolder;
+        font-size: size(xsmall);
+    }
+   .jumbotron
+    {
+        @include jb();
+font-family: 'Playfair Display', serif;
+    }
+    header
+    {
+        .btn
+        {
+            @include btn();
+        }
+    }
+    section{
+        p{
+            color: color(b);
+            font-size: size(xsmall);
+            padding: 30px 10px;
+        }
+        
+        h3,h1{
+            @include jb();
+            margin-top: 20px;
+            color: color(b);
+        }
+        h5
+        {
+            @include jb();
+            margin-top: 12px;
+            color: color(d);
+            font-family: 'Bitter', serif;
+            font-weight: bolder;
+        }
+        .col-xs-12
+        {
+            img{
+                width: 200px;
+                height: 100px;
+            }
+        }
+    }
+    footer
+    {
+        background-color: color(a);
+        ul{
+            list-style-type: none;
+            text-align: center;
+        }
+        li{
+            padding: 10px;
+            font-size: size(xsmall);
+        }
+        width: 100%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
