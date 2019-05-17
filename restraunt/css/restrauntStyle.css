@@ -1,0 +1,76 @@
+@media (min-width: 1200px) {
+  body .navbar {
+    padding: 15px; }
+    body .navbar .navbar-brand {
+      font-size: 2.4em;
+      padding: 15px;
+      margin-left: 100px;
+      font-family: 'Fjalla One', sans-serif;
+      background: linear-gradient(to right, #ee0979, #ff6a00);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-weight: bolder; }
+    body .navbar .nav-item {
+      padding: 15px;
+      font-family: 'Catamaran', sans-serif; }
+      body .navbar .nav-item .nav-link {
+        color: #c0a757; } }
+@media (min-width: 992px) and (max-width: 1200px) {
+  body .navbar .navbar-brand {
+    font-size: 1.8em;
+    margin-left: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder; }
+  body .navbar .nav-item {
+    padding: 10px;
+    font-size: 0.9em;
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar .nav-item .nav-link {
+      color: #c0a757; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  body .navbar .navbar-brand {
+    font-size: 1.8em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder; }
+  body .navbar .nav-item {
+    padding: 15px;
+    font-size: 1em;
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar .nav-item .nav-link {
+      color: #c0a757; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  body .navbar .navbar-brand {
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder; }
+  body .navbar .nav-item {
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar .nav-item .nav-link {
+      color: #c0a757; } }
+@media (max-width: 576px) {
+  body .navbar .navbar-brand {
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder; }
+  body .navbar .nav-item {
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Catamaran', sans-serif; }
+    body .navbar .nav-item .nav-link {
+      color: #c0a757; } }
+
+/*# sourceMappingURL=restrauntStyle.css.map */

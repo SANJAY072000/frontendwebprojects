@@ -1,0 +1,45 @@
+@mixin navbar-brand-xl(){
+    font-size: 2.4em;
+    padding: 15px;
+    margin-left: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-lg(){
+    font-size: 1.8em;
+    margin-left: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-md(){
+    font-size: 1.8em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-sm(){
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+@mixin navbar-brand-xs(){
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to right,#ee0979,#ff6a00);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-weight: bolder;
+}
+
+

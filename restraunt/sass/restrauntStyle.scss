@@ -1,0 +1,160 @@
+@import "mixins";
+$rockingRed:(
+rr1:#E44236,
+rr2:#FF362E,
+rr3:#E8290B,
+rr4:#AE1438,
+rr5:#E71C23,
+rr6:#EC4849,
+rr7:#FF3E4D,
+);
+$beautifulBlue:(
+bb1:#3498DB,
+bb2:#0A3D62,
+bb3:#30336B,
+bb4:#25CCF7,
+bb5:#0ABDE3,
+bb6:#4834DF,
+bb7:#0A79DF,
+);
+$golfGreen:(
+gg1:#2ecc72,
+gg2:#75DA8B,
+gg3:#019031,
+gg4:#A3CB37,
+gg5:#45CE30,
+gg6:#6AB04A,
+gg7:#45CE30,
+);
+$freshYellow:(
+fy1:#EEC213,
+fy2:#DFAF2B,
+fy3:#E1DA00,
+fy4:#FFF222,
+fy5:#FAD02E,
+fy6:#E5B143,
+fy7:#F9DDA4,
+);
+$oldGrey:(
+og1:#7B8788,
+og2:#535C68,
+og3:#777E8B,
+og4:#4C4B4B,
+og5:#2F363F,
+og6:#2C3335,
+og7:#99AAAB,
+);
+@function rr($a){
+    @return map-get($rockingRed,$a);
+}
+@function bb($a){
+    @return map-get($beautifulBlue,$a);
+}
+@function gg($a){
+    @return map-get($golfGreen,$a);
+}
+@function fy($a){
+    @return map-get($freshYellow,$a);
+}
+@function og($a){
+    @return map-get($oldGrey,$a);
+}
+
+
+@media (min-width:1200px){
+    body{
+        .navbar{
+            padding: 15px;
+            .navbar-brand{
+                @include navbar-brand-xl();
+            }
+            .nav-item{
+                padding:15px;
+                font-family: 'Catamaran', sans-serif;
+                .nav-link{
+                color:#c0a757;
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1200px){
+    body{
+         .navbar{
+            .navbar-brand{
+                @include navbar-brand-lg();
+            }
+            .nav-item{
+                padding:10px;
+                font-size: 0.9em;
+                font-family: 'Catamaran', sans-serif;
+                .nav-link{
+                color:#c0a757;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px) and (max-width:992px){
+    body{
+        .navbar{
+            .navbar-brand{
+                @include navbar-brand-md();
+            }
+            .nav-item{
+                padding:15px;
+                font-size: 1em;
+                font-family: 'Catamaran', sans-serif;
+                .nav-link{
+                color:#c0a757;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+    body{
+        .navbar{
+            .navbar-brand{
+                @include navbar-brand-sm();
+            }
+            .nav-item{
+                padding:10px;
+                font-size: 1em;
+                font-family: 'Catamaran', sans-serif;
+                .nav-link{
+                color:#c0a757;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:576px){
+    body{
+        .navbar{
+            .navbar-brand{
+                @include navbar-brand-xs();
+            }
+            .nav-item{
+                padding:10px;
+                font-size: 1em;
+                font-family: 'Catamaran', sans-serif;
+                .nav-link{
+                color:#c0a757;
+                }
+            }
+        }
+    }
+}
+
+
+
