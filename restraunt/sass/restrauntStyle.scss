@@ -93,6 +93,37 @@ og7:#99AAAB,
         .carousel-indicators{
             margin-bottom: 30px;
         }
+        header{
+            .r1{
+                @include r1-xl();
+                .c1{
+                      @include c1-xl();
+                }
+                .c2{
+                    @include c2-xl();
+                }
+                .c3{
+                    h5{
+                        @include h5-xl();
+                    }
+                }
+            }
+            .hist{
+                @include hist-xl();
+            }
+            .p1{
+                @include p1-xl();
+            }
+            .c4{
+                .carousel-item{
+                    @include c4-xl();
+                img{
+                    width: 540px;
+                    height: 380px;
+                }
+                } 
+            }
+        }
     }
 }
 

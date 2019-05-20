@@ -56,3 +56,59 @@
     font-weight: bolder;
    font-family: 'Slabo 27px', serif;
 }
+@mixin r1-xl(){
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+@mixin c1-xl(){
+    height: 20%;
+    border-bottom: 1.55px dashed #e0bf5e;
+    border-top: 1.55px dashed #e0bf5e;
+    margin-top: 7px;
+    color: transparent;
+    flex-grow: 1;
+}
+@mixin c2-xl(){
+text-align: center;
+font-weight: bolder;
+font-family: 'Roboto Condensed', sans-serif;
+}
+@mixin h5-xl(){
+    width: 70%;
+    margin-left: 160px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Satisfy', cursive;
+    color: #707070;
+}
+@mixin hist-xl(){
+   color: #bfa456;
+font-family: 'Great Vibes', cursive;
+text-align: center;  
+}
+@mixin p1-xl(){
+     font-family: 'Catamaran', sans-serif;
+    font-size: 1.15em;
+    color: #707070;
+    margin-top: 40px;
+}
+@mixin c4-xl(){
+     width: 540px;
+    height: 540px;
+    margin-left: -40px;
+    margin-top: 105px;
+}
+
+
+
+
+
+
+
+
+
+
