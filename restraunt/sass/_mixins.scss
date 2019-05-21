@@ -102,13 +102,54 @@ text-align: center;
     margin-left: -40px;
     margin-top: 105px;
 }
-
-
-
-
-
-
-
+@mixin rr1-xl(){
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+@mixin cc1-xl(){
+    height: 7%;
+    border: 3px solid #e0bf5e;
+    margin-top: 40px;
+    color: transparent;
+}
+@mixin cc2-xl(){
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Patua One', cursive;
+    color: white;
+    padding: 20px;
+    flex-grow: 3;
+}
+@mixin h-xl(){
+    width: 70%;
+    margin-left: 185px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    color: #b29859;
+}
+@mixin cc4-h1-xl(){
+    text-align: center;                    
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    color: #b29859; 
+}
+@mixin cc4-h3-xl(){
+    font-size: 2.5em;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+@mixin cc4-h4-xl(){
+    margin-top: 50px;
+    color: white;
+    padding: 12px;
+    font-family: 'Fjalla One', sans-serif;
+}
 
 
 
