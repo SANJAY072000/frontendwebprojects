@@ -124,7 +124,42 @@
         margin-top: 50px;
         color: white;
         padding: 12px;
-        font-family: 'Fjalla One', sans-serif; } }
+        font-family: 'Fjalla One', sans-serif; }
+  body .mnu {
+    background-image: url(../images/menu_left.jpg), url(../images/menu_right.jpg);
+    background-position: top left, top right;
+    min-height: 950px;
+    background-repeat: no-repeat; }
+    body .mnu .container-fluid .col-12 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px; }
+    body .mnu .container-fluid .col-lg .mh {
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #887025; }
+    body .mnu .container-fluid .col-lg .lst {
+      color: #494948; }
+    body .mnu .container-fluid .col-lg .col-3 {
+      color: #bfa761;
+      font-weight: bolder;
+      font-family: 'Satisfy', cursive;
+      font-size: 1.3em;
+      text-align: left; }
+    body .mnu .container-fluid .btn {
+      color: #bfa761;
+      padding: 15px 35px;
+      border: 2px solid #bfa760;
+      font-size: 1.3em;
+      font-family: 'Catamaran', sans-serif; }
+    body .mnu .container-fluid .btn:hover {
+      color: white;
+      background-color: #bfa761;
+      padding: 15px 35px;
+      border: 2px solid #bfa760;
+      font-size: 1.3em;
+      font-family: 'Catamaran', sans-serif; } }
 @media (min-width: 992px) and (max-width: 1200px) {
   body .navbar .navbar-brand {
     font-size: 1.5em;
@@ -251,7 +286,38 @@
         margin-top: 50px;
         color: white;
         padding: 12px;
-        font-family: 'Fjalla One', sans-serif; } }
+        font-family: 'Fjalla One', sans-serif; }
+  body .mnu .container-fluid .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; }
+  body .mnu .container-fluid .col-lg .mh {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #887025; }
+  body .mnu .container-fluid .col-lg .lst {
+    color: #494948; }
+  body .mnu .container-fluid .col-lg .col-3 {
+    color: #bfa761;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: left;
+    font-size: 1.2em; }
+  body .mnu .container-fluid .btn {
+    color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; }
+  body .mnu .container-fluid .btn:hover {
+    color: white;
+    background-color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; } }
 @media (min-width: 768px) and (max-width: 992px) {
   body .navbar .navbar-brand {
     font-size: 2em;
@@ -382,7 +448,38 @@
         margin-top: 50px;
         color: white;
         padding: 12px;
-        font-family: 'Fjalla One', sans-serif; } }
+        font-family: 'Fjalla One', sans-serif; }
+  body .mnu .container-fluid .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; }
+  body .mnu .container-fluid .col-lg .mh {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #887025; }
+  body .mnu .container-fluid .col-lg .lst {
+    color: #494948; }
+  body .mnu .container-fluid .col-lg .col-3 {
+    color: #bfa761;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: left;
+    font-size: 1.3em; }
+  body .mnu .container-fluid .btn {
+    color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; }
+  body .mnu .container-fluid .btn:hover {
+    color: white;
+    background-color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; } }
 @media (min-width: 576px) and (max-width: 768px) {
   body .navbar .navbar-brand {
     font-size: 1.5em;
@@ -508,7 +605,38 @@
         margin-top: 50px;
         color: white;
         padding: 12px;
-        font-family: 'Fjalla One', sans-serif; } }
+        font-family: 'Fjalla One', sans-serif; }
+  body .mnu .container-fluid .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; }
+  body .mnu .container-fluid .col-lg .mh {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #887025; }
+  body .mnu .container-fluid .col-lg .lst {
+    color: #494948; }
+  body .mnu .container-fluid .col-lg .col-3 {
+    color: #bfa761;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: left;
+    font-size: 1.3em; }
+  body .mnu .container-fluid .btn {
+    color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; }
+  body .mnu .container-fluid .btn:hover {
+    color: white;
+    background-color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; } }
 @media (max-width: 576px) {
   body .navbar .navbar-brand {
     font-size: 1.5em;
@@ -634,6 +762,37 @@
         margin-top: 50px;
         color: white;
         padding: 12px;
-        font-family: 'Fjalla One', sans-serif; } }
+        font-family: 'Fjalla One', sans-serif; }
+  body .mnu .container-fluid .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; }
+  body .mnu .container-fluid .col-lg .mh {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #887025; }
+  body .mnu .container-fluid .col-lg .lst {
+    color: #494948; }
+  body .mnu .container-fluid .col-lg .col-3 {
+    color: #bfa761;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: left;
+    font-size: 1.3em; }
+  body .mnu .container-fluid .btn {
+    color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; }
+  body .mnu .container-fluid .btn:hover {
+    color: white;
+    background-color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif; } }
 
 /*# sourceMappingURL=restrauntStyle.css.map */

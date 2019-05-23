@@ -150,6 +150,50 @@ text-align: center;
     padding: 12px;
     font-family: 'Fjalla One', sans-serif;
 }
+@mixin mnu-xl(){
+    background-image: url(../images/menu_left.jpg),
+    url(../images/menu_right.jpg);
+    background-position: top left, top right;
+    min-height: 950px;
+    background-repeat: no-repeat;
+}
+@mixin mnu-col-12-xl(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+@mixin mnu-mh-xl(){
+     text-align: center;
+     font-family: 'Roboto Condensed', sans-serif;
+     color: #887025;
+}
+@mixin mnu-col-3-xl(){
+    color: #bfa761;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: left;
+}
+@mixin mnu-btn-xl(){
+    color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif;
+}
+@mixin mnu-btnhover-xl(){
+    color: white;
+    background-color: #bfa761;
+    padding: 15px 35px;
+    border: 2px solid #bfa760;
+    font-size: 1.3em;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+
+
 
 
 

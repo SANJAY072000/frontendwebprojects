@@ -158,6 +158,32 @@ og7:#99AAAB,
                 
             }
         }
+        .mnu{
+            @include mnu-xl();
+            .container-fluid{
+                .col-12{
+                    @include mnu-col-12-xl();
+                }
+                .col-lg{
+                    .mh{
+                        @include mnu-mh-xl();
+                    }
+                    .lst{
+                        color: #494948;
+                    }
+                   .col-3{
+                       @include mnu-col-3-xl();
+                    }
+                    
+                }
+                .btn{
+                    @include mnu-btn-xl();
+                }
+                .btn:hover{
+                    @include mnu-btnhover-xl();
+                }
+            }
+        }
     }
 }
 
@@ -260,6 +286,32 @@ og7:#99AAAB,
         @include cc4-h4-xl();
                 }
                 
+            }
+        }
+        .mnu{
+            .container-fluid{
+                .col-12{
+                    @include mnu-col-12-xl();
+                }
+                .col-lg{
+                    .mh{
+                        @include mnu-mh-xl();
+                    }
+                    .lst{
+                        color: #494948;
+                    }
+                   .col-3{
+                       @include mnu-col-3-xl();
+                       font-size: 1.2em;
+                    }
+                    
+                }
+                .btn{
+                    @include mnu-btn-xl();
+                }
+                .btn:hover{
+                    @include mnu-btnhover-xl();
+                }
             }
         }
     }
@@ -370,6 +422,32 @@ og7:#99AAAB,
                 
             }
         }
+        .mnu{
+            .container-fluid{
+                .col-12{
+                    @include mnu-col-12-xl();
+                }
+                .col-lg{
+                    .mh{
+                        @include mnu-mh-xl();
+                    }
+                    .lst{
+                        color: #494948;
+                    }
+                   .col-3{
+                       @include mnu-col-3-xl();
+                       font-size: 1.3em;
+                    }
+                    
+                }
+                .btn{
+                    @include mnu-btn-xl();
+                }
+                .btn:hover{
+                    @include mnu-btnhover-xl();
+                }
+            }
+        }
     }
 }
 
@@ -475,6 +553,32 @@ og7:#99AAAB,
                 
             }
         }
+        .mnu{
+            .container-fluid{
+                .col-12{
+                    @include mnu-col-12-xl();
+                }
+                .col-lg{
+                    .mh{
+                        @include mnu-mh-xl();
+                    }
+                    .lst{
+                        color: #494948;
+                    }
+                   .col-3{
+                       @include mnu-col-3-xl();
+                       font-size: 1.3em;
+                    }
+                    
+                }
+                .btn{
+                    @include mnu-btn-xl();
+                }
+                .btn:hover{
+                    @include mnu-btnhover-xl();
+                }
+            }
+        }
     }
 }
 
@@ -578,6 +682,32 @@ og7:#99AAAB,
         @include cc4-h4-xl();
                 }
                 
+            }
+        }
+        .mnu{
+            .container-fluid{
+                .col-12{
+                    @include mnu-col-12-xl();
+                }
+                .col-lg{
+                    .mh{
+                        @include mnu-mh-xl();
+                    }
+                    .lst{
+                        color: #494948;
+                    }
+                   .col-3{
+                       @include mnu-col-3-xl();
+                       font-size: 1.3em;
+                    }
+                    
+                }
+                .btn{
+                    @include mnu-btn-xl();
+                }
+                .btn:hover{
+                    @include mnu-btnhover-xl();
+                }
             }
         }
     }
