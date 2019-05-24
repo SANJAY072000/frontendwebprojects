@@ -190,6 +190,47 @@ text-align: center;
     font-size: 1.3em;
     font-family: 'Catamaran', sans-serif;
 }
+@mixin as-xl(){
+    background-color: #141313;
+    padding: 30px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100%;
+    margin-bottom: 120px;
+    margin-top: 70px;
+}
+@mixin as-ul-xl(){
+    margin-top: -70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+@mixin as-ahover-xl(){
+    border-bottom:2px solid #c1a667; 
+    text-decoration: none;
+    cursor: pointer;
+}
+@mixin as-gl-img-xl(){
+    width: 366px;
+    height: 300px;
+    margin-left: -10px;
+}
+@mixin as-gl-img-lg(){
+    width: 295px;
+    height: 300px;
+    margin-left: -5px;
+}
+@mixin as-gl-img-sm(){
+    width: 235px;
+    height: 250px;
+    margin-left: -5px;
+}
+@mixin as-gl-img-xs(){
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+}
 
 
 

@@ -93,7 +93,7 @@ og7:#99AAAB,
         .carousel-indicators{
             margin-bottom: 30px;
         }
-        header{
+        header,aside{
             .r1{
                 @include r1-xl();
                 .c1{
@@ -184,6 +184,31 @@ og7:#99AAAB,
                 }
             }
         }
+        .as{
+            @include as-xl();
+            ul{
+                 @include as-ul-xl();
+                li{
+                    float: left;
+                    padding: 0px 50px;
+                    a{
+                        font-family: 'Catamaran', sans-serif;
+                        color: white;
+                    }
+                    .active{
+                    border-bottom:2px solid #c1a667; 
+                    }
+                    a:hover{
+                         @include as-ahover-xl();
+                    }
+                }
+            }
+            .gl{
+                img{
+                     @include as-gl-img-xl();
+                }
+            }
+        }
     }
 }
 
@@ -220,7 +245,7 @@ og7:#99AAAB,
         .carousel-indicators{
             margin-bottom: 30px;
         }
-        header{
+        header,aside{
             .r1{
                 @include r1-xl();
                 .c1{
@@ -314,6 +339,32 @@ og7:#99AAAB,
                 }
             }
         }
+        .as{
+            @include as-xl();
+            margin-top: 400px;
+            ul{
+                 @include as-ul-xl();
+                li{
+                    float: left;
+                    padding: 0px 50px;
+                    a{
+                        font-family: 'Catamaran', sans-serif;
+                        color: white;
+                    }
+                    .active{
+                    border-bottom:2px solid #c1a667; 
+                    }
+                    a:hover{
+                         @include as-ahover-xl();
+                    }
+                }
+            }
+            .gl{
+                img{
+                    @include as-gl-img-lg();
+                }
+            }
+        }
     }
 }
 
@@ -350,7 +401,7 @@ og7:#99AAAB,
         .carousel-indicators{
             margin-bottom: 30px;
         }
-        header{
+        header,aside{
             .r1{
                 @include r1-xl();
                 .c1{
@@ -448,6 +499,32 @@ og7:#99AAAB,
                 }
             }
         }
+        .as{
+            @include as-xl();
+            margin-top: 1400px;
+            ul{
+                 @include as-ul-xl();
+                li{
+                    float: left;
+                    padding: 0px 30px;
+                    a{
+                        font-family: 'Catamaran', sans-serif;
+                        color: white;
+                    }
+                    .active{
+                    border-bottom:2px solid #c1a667; 
+                    }
+                    a:hover{
+                         @include as-ahover-xl();
+                    }
+                }
+            }
+            .gl{
+                img{
+                    @include as-gl-img-lg();
+                }
+            }
+        }
     }
 }
 
@@ -477,7 +554,7 @@ og7:#99AAAB,
         .carousel-indicators{
             margin-bottom: 30px;
         }
-        header{
+        header,aside{
             .r1{
                 @include r1-xl();
                 .c1{
@@ -579,6 +656,32 @@ og7:#99AAAB,
                 }
             }
         }
+        .as{
+            @include as-xl();
+            margin-top: 1400px;
+            ul{
+                 @include as-ul-xl();
+                li{
+                    float: left;
+                    padding: 0px 20px;
+                    a{
+                        font-family: 'Catamaran', sans-serif;
+                        color: white;
+                    }
+                    .active{
+                    border-bottom:2px solid #c1a667; 
+                    }
+                    a:hover{
+                         @include as-ahover-xl();
+                    }
+                }
+            }
+            .gl{
+                img{
+                  @include as-gl-img-sm();
+                }
+            }
+        }
     }
 }
 
@@ -608,7 +711,7 @@ og7:#99AAAB,
         .carousel-indicators{
             margin-bottom: 30px;
         }
-       header{
+       header,aside{
             .r1{
                 @include r1-xl();
                 .c1{
@@ -707,6 +810,34 @@ og7:#99AAAB,
                 }
                 .btn:hover{
                     @include mnu-btnhover-xl();
+                }
+            }
+        }
+        .as{
+            @include as-xl();
+            margin-top: 1400px;
+            ul{
+                 @include as-ul-xl();
+                margin-left: -50px;
+                li{
+                    float: left;
+                    padding: 0px 10px;
+                    a{
+                        font-family: 'Catamaran', sans-serif;
+                        color: white;
+                    }
+                    .active{
+                    border-bottom:2px solid #c1a667; 
+                    }
+                    a:hover{
+                         @include as-ahover-xl();
+                    }
+                }
+            }
+            .gl{
+                
+                img{
+                    @include as-gl-img-xs();
                 }
             }
         }
