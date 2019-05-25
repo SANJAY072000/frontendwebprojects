@@ -254,11 +254,24 @@ og7:#99AAAB,
             }
         }
         .ftr{
-            background-color: #141313;
-            margin-top: -100px;
-            height: 420px;
-            width: 100%;
-
+          @include ftr-xl();
+            .row{
+               @include ftr-row-xl();
+                .fa-twitter{
+                    color: bb(bb5);
+                }
+                .fa-facebook{
+                    color: bb(bb6);
+                }
+                 .fa-google{
+                    color: rr(rr3);
+                }
+                .fa-circle-thin{
+                }
+                 .fa-instagram{
+                  @include ftr-insta-xl();
+                }
+            }
         }
     }
 }
@@ -459,6 +472,26 @@ og7:#99AAAB,
                     .blockquote-footer{
                         @include blockquote-footer-xl();
                     }
+                }
+            }
+        }
+        .ftr{
+          @include ftr-xl();
+            .row{
+               @include ftr-row-xl();
+                .fa-twitter{
+                    color: bb(bb5);
+                }
+                .fa-facebook{
+                    color: bb(bb6);
+                }
+                 .fa-google{
+                    color: rr(rr3);
+                }
+                .fa-circle-thin{
+                }
+                 .fa-instagram{
+                  @include ftr-insta-xl();
                 }
             }
         }
@@ -670,6 +703,26 @@ og7:#99AAAB,
                 }
             }
         }
+        .ftr{
+          @include ftr-xl();
+            .row{
+               @include ftr-row-xl();
+                .fa-twitter{
+                    color: bb(bb5);
+                }
+                .fa-facebook{
+                    color: bb(bb6);
+                }
+                 .fa-google{
+                    color: rr(rr3);
+                }
+                .fa-circle-thin{
+                }
+                 .fa-instagram{
+                  @include ftr-insta-xl();
+                }
+            }
+        }
     }
 }
 
@@ -873,6 +926,26 @@ og7:#99AAAB,
                     .blockquote-footer{
                         @include blockquote-footer-xl();
                     }
+                }
+            }
+        }
+        .ftr{
+          @include ftr-xl();
+            .row{
+               @include ftr-row-xl();
+                .fa-twitter{
+                    color: bb(bb5);
+                }
+                .fa-facebook{
+                    color: bb(bb6);
+                }
+                 .fa-google{
+                    color: rr(rr3);
+                }
+                .fa-circle-thin{
+                }
+                 .fa-instagram{
+                  @include ftr-insta-xl();
                 }
             }
         }
@@ -1082,6 +1155,26 @@ og7:#99AAAB,
                     .blockquote-footer{
                         @include blockquote-footer-xl();
                     }
+                }
+            }
+        }
+        .ftr{
+          @include ftr-xl();
+            .row{
+               @include ftr-row-xl();
+                .fa-twitter{
+                    color: bb(bb5);
+                }
+                .fa-facebook{
+                    color: bb(bb6);
+                }
+                 .fa-google{
+                    color: rr(rr3);
+                }
+                .fa-circle-thin{
+                }
+                 .fa-instagram{
+                  @include ftr-insta-xl();
                 }
             }
         }

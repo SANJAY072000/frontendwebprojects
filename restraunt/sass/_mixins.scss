@@ -277,9 +277,25 @@ text-align: center;
     margin-top: 50px;
     font-size: 1em;
 }
-
-
-
+@mixin ftr-xl(){
+    background-color: #141313;
+    margin-top: -100px;
+    height: 415px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin ftr-row-xl(){
+    color: white;
+    font-size: 2.3em;
+    text-align: center;
+}
+@mixin ftr-insta-xl(){
+    background: linear-gradient(to right,#8A2387,#E94057,#FF0080);
+    -webkit-background-clip:text;
+    color: transparent;
+}
 
 
 
