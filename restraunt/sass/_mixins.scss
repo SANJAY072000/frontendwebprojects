@@ -231,6 +231,61 @@ text-align: center;
     height: 250px;
     margin-left: 20px;
 }
+@mixin bk-h3-xl(){
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    font-size: 1.9em;
+}
+@mixin bk-sb-xl(){
+    border: 1px solid #b29859;
+    height: 1px;
+    margin-top: 43px;
+}
+@mixin bk-col-12-h1-xl(){
+    font-family: 'Fira Sans', sans-serif;
+    color: #444342;
+    font-weight: bolder;
+}
+@mixin test-xl(){
+    height: 600px;
+    margin-top: 850px;
+    margin-bottom: 100px;
+}
+@mixin test-t1-xl(){
+    background: url(../images/testimonials_logo.png)
+    no-repeat center center;
+    height: 150px;
+    margin-top: 20px;
+}
+@mixin test-tst-xl(){
+    font-family: 'Fira Sans', sans-serif;
+    color: #bfa760;
+    margin-left: 80px;
+    padding: 0px;
+    border-bottom: 3px solid white;
+    width: 50px;
+    font-size: 2.2em;
+}
+@mixin blockquote-xl(){
+    width: 100%;
+    height: 400px;
+    color: #e2e9ed;
+    font-size: 1.6em;
+}
+@mixin blockquote-footer-xl(){
+    color: #bfa760;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
 
 
 
